@@ -46,7 +46,7 @@ aside {
 }
 
 aside img {
-  width: 200px;
+  width: 250px;
   height: auto;
 }
 
@@ -61,7 +61,7 @@ footer {
 /*Class selectors*/
 
 .box {
-    margin: 1rem;
+    margin: 2rem;
     border: 1px solid rgb(0 0 0 / 10% );
     padding: 1rem;
     background-color: #ddd;
