@@ -25,7 +25,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid rgb(steelblue);
+    border: 1px solid rgb(rgb(5, 47, 80));
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
@@ -54,6 +54,8 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+    background-color: rgb(5, 47, 82);
+    padding: 20px;
 }
 
 /*Class selectors*/
