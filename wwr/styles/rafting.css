@@ -50,6 +50,7 @@ p, section, article {
 }
 
 nav {
+    
     margin: 45px;
     padding: 8px;
 }
@@ -96,8 +97,8 @@ article {
 h2 {
     position: relative;
     width: 800px;
-    padding: 16px;
-    margin-bottom: 100px;
+    padding: 8px;
+    margin-bottom: 30px;
     text-align: center;
     background-color: blue;
     color: white;
@@ -109,9 +110,9 @@ figure {
 }
 
 footer {
+    display: flex;
     border-top: 2px solid black;
     margin-bottom: 2px;
-    
     padding: 32px;
     text-align: left;
 }
