@@ -14,16 +14,13 @@ header {
 }
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: baseline;
 }
 
-.container2 {
-    display: grid;
-    justify-content: center;
-}
 
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -69,7 +66,7 @@ nav {
 
 h1 {
     position: absolute;
-    top: 250px;
+    top: 200px;
     width: 840px;
     padding: 16px;
     text-align: center;
