@@ -6,6 +6,8 @@
 
 head {
     display: flex;
+    margin: 2rem;
+    box-sizing: border-box;
 }
 
 body {
