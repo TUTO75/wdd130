@@ -108,6 +108,6 @@ footer {
 }
 
 .column2 {
-    grid-template-columns: 1fr 2fr;
-    margin: 1rem;
+    grid-template-columns: 1fr 2fr;   /* Email
+    margin: 0.5rem 0;
 }
