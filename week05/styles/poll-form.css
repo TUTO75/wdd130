@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -13,6 +13,7 @@ body {
     font-size: 1.2em;
     color: #333;
     background: #fff;
+
 }
 
 header {
@@ -33,7 +34,7 @@ form {
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
     border-radius: 0.5rem;
-    background-color: #eee;
+    background-color: #d3cece;
     display: grid;
 }
 
@@ -43,12 +44,13 @@ fieldset {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
+    
 }
 
 legend {
     padding: 0.5rem;
     color: navy;
-    font-size: 1.3rem;
+    font-size: 1.3em;
 }
 
 label, input, button, select, textarea {
@@ -56,8 +58,8 @@ label, input, button, select, textarea {
 }
 
 label {
-    text-align: right;
-    padding-right: 1rem;
+    text-align: right;      /* Full Name, Email*/
+    padding-right: 1rem;    
 }
 
 input, select, textarea {
@@ -66,18 +68,18 @@ font-size: 1.1rem;
 }
 
 input[type="checkbox"] {
-    width: 22px;
+    width: 22px;             /*household pet checkbox*/
     height: 22px;
     vertical-align: bottom;
 }
 
 button {
-    margin: 14rem;
+    margin: 2rem;
     background-color: navy;
     color: #fff;
     border: none;
     border-radius: .5rem;
-    padding: .75rem;
+    padding: 0.75em;
     font-size: 1.2rem;
 }
 
@@ -91,7 +93,8 @@ footer {
     text-align: center;
     font-size: 0.8em;
     color: #777;
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #ccc;
+    padding: 10px;
 }
 
 .form-item {
