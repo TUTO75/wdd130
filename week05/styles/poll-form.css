@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-/*head {
+head {
     display: flex;
-}*/
+}
 
 body {
     font-family: Merriweather, Georgia, serif;
@@ -89,7 +89,7 @@ button:hover {
 
 footer {
     margin: 1rem auto 0;
-    width: 650px;
+    width: 670px;
     text-align: center;
     font-size: 0.8em;
     color: #777;
