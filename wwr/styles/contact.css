@@ -27,7 +27,7 @@ header {
 
 
 
-/**{
+/*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -38,8 +38,8 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
-    width: 900px;
+header, main, footer, {
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -53,10 +53,10 @@ header, main, footer {
 
 
 
-p, section, article {
+/*p, section, article {
     margin: 1px;
     padding: 2px;
-}
+}*/
 
 /*nav {
     
@@ -123,15 +123,25 @@ h2 {
     margin: 1px;
 }*/
 
+section {
+    
+    
+
+    border: 2px solid black;
+    margin-bottom: 8px;
+    padding: 6px 38px;
+    background-color: rgb(205, 211, 217);
+    
+}
+
 footer {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+
     border: 2px solid black;
     margin-bottom: 2px;
     padding: 6px 38px ;
     background-color: rgb(132, 181, 229);
-
-    
 }
