@@ -8,8 +8,14 @@
 }
 
 header {
-    /*background-color: var(--primary-color);
-    color: var(--accent2-color);*/
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin-bottom: 2px;
+    padding: 6px 38px ;
+    background-color: rgb(132, 181, 229);
     
 }
 
@@ -37,13 +43,13 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+/*h1, h2 {
     width: 840px;
     padding: 16px;
     text-align: center;
     font-family: var(--heading-font);
     color: var(--primary-color);
-}
+}*/
 
 
 
@@ -103,15 +109,14 @@ p, section, article {
     width: 130px;
 }*/
 
-/*h2 {
+h2 {
     position: relative;
     width: 800px;
     padding: 8px;
     margin-bottom: 30px;
     text-align: center;
-    background-color: blue;
-    color: white;
-}*/
+    color: black;
+}
 
 /*figure {
     display: inline-block;
