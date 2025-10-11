@@ -43,15 +43,16 @@ header, main, footer,{
     margin: 0 auto;
 }
 
-/*h1, h2 {
+h1 {
     width: 840px;
     padding: 16px;
     text-align: center;
     font-family: var(--heading-font);
-    color: var(--primary-color);
-}*/
+    text-align: center;
+    color: black;
 
 
+}
 
 /*p, section, article {
     margin: 1px;
@@ -71,8 +72,7 @@ header, main, footer,{
     float: right;
     padding: 1px 1px;
     margin: 10px;
-    
-}
+    }
 
 /*.hero img {
     display: block;
@@ -80,16 +80,9 @@ header, main, footer,{
     height: auto;
 }*/
 
-/*h1 {
-    position: absolute;
-    top: 200px;
-    width: 840px;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.6;
-    background-color: blue;
-    color: #fff;
-}*/
+h1 {
+    
+}
 
 /*article {
     position: relative;
@@ -97,11 +90,6 @@ header, main, footer,{
     position: relative;
     bottom: 150px;
     width: auto;
-    padding: 16px;
-    opacity: 0.7;
-    background-color: blue;
-    color: white;
-
 }*/
 
 /*.hero article img {
