@@ -1,7 +1,7 @@
 :root {
     --primary-color: white;
     --secondary-color: #f4a261;
-    /*--accent1-color: #264653;*/
+    --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -39,7 +39,7 @@ body {
 }
 
 header, main, footer, {
-    width: 600px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -129,7 +129,7 @@ section {
 
     border: 2px solid black;
     margin-bottom: 8px;
-    padding: 6px 38px;
+    padding: 100px 8px;
     background-color: rgb(205, 211, 217);
     
 }
