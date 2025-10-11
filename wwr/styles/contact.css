@@ -65,6 +65,7 @@ p, section, article {
     float: right;
     padding: 1px 1px;
     margin: 10px;
+    
 }
 
 /*.hero img {
@@ -119,9 +120,13 @@ p, section, article {
 
 footer {
     display: flex;
-    align-items: flex-start;
-    border-top: 2px solid black;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid black;
     margin-bottom: 2px;
-    padding: 32px;
-    text-align: left;
+    padding: 6px 38px ;
+    background-color: rgb(132, 181, 229);
+
+    
 }
