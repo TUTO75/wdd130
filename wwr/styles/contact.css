@@ -38,8 +38,8 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer, body{
-    width: 900px;
+header, main, footer,{
+    width: 900;
     margin: 0 auto;
 }
 
