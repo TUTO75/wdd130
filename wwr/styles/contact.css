@@ -37,12 +37,12 @@ body {
 }
 
 header, main {
-    width: 900;
+    width: 1330px;
     margin: 0 auto;
 }
 
 h1 {
-    width: 840px;
+    width: 1330px;
     padding: 16px;
     text-align: center;
     font-family: var(--heading-font);
