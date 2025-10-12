@@ -110,11 +110,11 @@ iframe {
     box-sizing: border-box;
 }
 
-.left-box::after, .right-box::after {
+/*.left-box::after, .right-box::after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 
 
